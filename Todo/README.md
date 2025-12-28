@@ -38,29 +38,3 @@ A simple todo application built with Node.js, Express, and MongoDB using Mongoos
    ```bash
    npm run dev
    ```
-
-5. Open your browser and go to `http://localhost:3000`
-
-## API Endpoints
-
-- `GET /api/todos` - Get all todos
-- `POST /api/todos` - Create a new todo
-- `PUT /api/todos/:id` - Update a todo
-- `DELETE /api/todos/:id` - Delete a todo
-
-## Project Structure
-
-```
-todos/
-├── models/
-│   └── Todo.js          # MongoDB schema
-├── routes/
-│   └── todos.js         # API routes
-├── public/
-│   ├── index.html       # Frontend HTML
-│   ├── script.js        # Frontend JavaScript
-│   └── style.css        # Frontend CSS
-├── server.js            # Main server file
-├── package.json         # Dependencies
-└── .env                 # Environment variables
-```
